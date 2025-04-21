@@ -1,0 +1,13 @@
+service chall
+{
+    disable = no 
+    flags = REUSE
+    socket_type = stream
+    protocol = tcp
+    user = cryptoGenius
+    wait = no
+    server = /home/cryptoGenius/cryptoGenius
+    type = UNLISTED
+    port = 8080
+}
+
